@@ -1,0 +1,17 @@
+.FriendsHeader{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.Label{
+    margin-left: 20px;
+    font-size: var(--fontSizeBig);
+    font-weight: bold;
+}
+
+.Link{
+    margin-left: auto;
+    cursor: pointer;
+}

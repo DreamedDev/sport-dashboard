@@ -1,0 +1,43 @@
+.FriendsList{
+    display: flex;
+    flex-direction: column;
+}
+
+img.Profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.Friend{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.Info{
+    margin-left: 12px;
+    margin-right: auto;
+}
+
+p.Name{
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+p.Sport{
+    font-weight: bold;
+    font-size: var(--fontSizeSmall);
+    opacity: 0.6;
+}
+
+p.LastTime{
+    opacity: 0.4;
+    font-size: var(--fontSizeExtraSmall);
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.Mail{
+    align-self: center;
+}

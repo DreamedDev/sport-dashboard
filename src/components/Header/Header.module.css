@@ -1,0 +1,51 @@
+.Header{
+    margin: 25px;
+    margin-left: 10px;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.Location{
+    margin-right: auto;
+}
+
+.Title{
+
+}
+
+.Subtitle{
+    font-size: var(--fontSizeHuge);
+    font-weight: bold;
+}
+
+.SearchInput{
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.SearchIcon{
+    position: relative;
+    left: 40px;
+}
+
+.Search{
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    background-color: var(--backgroundInput);
+    padding: 16px;
+    padding-left: 50px;
+    font-size: var(--fontSizeSmall);
+    font-weight: bold;
+    color: var(--primaryColorExtraDark);
+    width: 230px;
+}
+
+img.Profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}

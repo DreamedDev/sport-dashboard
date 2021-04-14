@@ -1,0 +1,30 @@
+.FriendsCategories{
+    margin-top: 15px;
+    margin-bottom: 40px;
+    background-color: var(--backgroundColor);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.BtnActive{
+    background-color: var(--primaryColor);
+    border-radius: 12px;
+    padding: 8px 15px;
+    color: white;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Btn{
+    color: var(--primaryColorExtraDark);
+    font-size: var(--fontSizeSmall);
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+    opacity: 0.8;
+    cursor: pointer;
+}
